@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "AnimeJAN",
+    "slug": "AnimeJAN",
+    "scheme": "AnimeJANScheme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.projectdesign.AnimeJAN"
+    },
+    "android": {
+      "package": "com.projectdesign.AnimeJAN",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eed50841-1c9a-4384-97f2-e04017204d9e"
+      }
+    }
+  }
+}

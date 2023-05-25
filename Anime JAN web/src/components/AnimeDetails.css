@@ -1,0 +1,179 @@
+.anime-details-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  /*background: #FFFFFF url(https://images2.alphacoders.com/967/967260.png) center center/cover no-repeat; */
+  background: #FFFFFF url(https://images7.alphacoders.com/690/690850.jpg) right bottom/cover no-repeat padding-box;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  color: #000;
+}
+
+.anime-details-container img {
+  width: 500px;
+  height: 425px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.anime-details-container h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -3px 3px 5px #576f7b;
+  margin-bottom: 10px;
+}
+
+.anime-details-container p { /* Descripción */
+  font-size: 15px;
+  text-align: justify;
+  word-spacing: 3px;
+  margin: 15px 0;
+  
+}
+
+.anime-details-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.anime-details-container li {
+  margin: 5px 0;
+}
+
+.anime-details-container .details {
+  flex: 1;
+}
+
+.anime-details-container .description {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+
+}
+
+.anime-details-container .streaming-links {
+  margin-top: 20px;
+}
+
+.anime-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1450px;
+  margin-top: -200px;
+}
+
+.anime-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 13px;
+  font-size: 16px;
+  color: #fff;
+  border: black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.anime-buttons button.add-to-favorites {
+  position: fixed;
+  bottom: 175px;
+  left: 25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 65px;
+  background-image: url("https://i.pinimg.com/originals/34/94/61/349461f6b1ad23e4ec933a25b6aa9021.jpg");
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font: normal normal 21px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+
+.anime-buttons button.add-to-watchlist {
+  position: fixed;
+  bottom: 100px;
+  left: 25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 65px;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7b1877f2-3c6c-4084-87cc-3eaaa944c5ee/dee2ta5-9795c9dc-d102-433b-b9bb-c9a9e3b9b5e4.jpg/v1/fill/w_1280,h_720,q_75,strp/wallpaper_spirited_away_chihiro_by_miojosopa_dee2ta5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvN2IxODc3ZjItM2M2Yy00MDg0LTg3Y2MtM2VhYWE5NDRjNWVlXC9kZWUydGE1LTk3OTVjOWRjLWQxMDItNDMzYi1iOWJiLWM5YTllM2I5YjVlNC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GI54QYJDaLGPfMpC_w6rmyxeFKaBcTxDINXTvFdabj4");
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font: normal normal 21px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+
+.anime-buttons button.add-to-completed {
+  position: fixed;
+  bottom: 25px;
+  left: 25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 65px;
+  background-image: url("https://i.pinimg.com/originals/de/a0/ba/dea0ba5c5fa41e477df9c57b15db5bcc.jpg");
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font: normal normal 21px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+
+.anime-buttons button:hover {
+  opacity: 0.8;
+  font-size: 23px;
+  color: #000000;
+}
+
+.anime-buttons button i {
+  margin-right: 5px;
+}
